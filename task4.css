@@ -1,0 +1,21 @@
+.form #fname{
+    margin-left: 50px;
+}
+.form #uname{
+    margin-left: 52px;
+}
+.form #pass{
+    margin-left: 56px;
+}
+.form #repass{
+    margin-left: 35px;
+}
+.form #adres{
+    margin-left: 65px;
+}
+.form #age{
+    margin-left: 90px;
+}
+.form #gen{
+    margin-left: 69px;
+}
