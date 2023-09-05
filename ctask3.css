@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+table, th, td{
+    border: 0 solid lightgrey;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 5px 150px 5px 5px;
+}
+th{
+    text-align: left;
+    background-color: rgb(66, 175, 111);
+    color: white;
+}
+.table{
+    margin: 50px;
+}
+.grey{
+    background-color: rgba(211, 211, 211, 0.651);
+}
