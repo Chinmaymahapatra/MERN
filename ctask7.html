@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <link rel="stylesheet" href="ctask7.css" type="text/css">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <label for="name">Name:</label>
+            <input type="text" placeholder=" your name" name="name" class="fill" required><br><br>
+
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" placeholder=" your email" required class="fill"><br><br>
+
+            <label for="">Password:</label>
+            <input type="password" name="psw" id="pass" required><br><br>
+
+            <label for="phn">Phone Number:</label>
+            <input type="number" name="phn" id="phonenum" required><br><br>
+            
+            <label for="gen">Gender:</label>
+            <span id="gen2">Male:</span><input type="radio" name="gen" id="gender" required>
+            <span class="gen1">Female:</span><input type="radio" name="gen" id="gender" required>
+            <span class="gen1">Others:</span><input type="radio" name="gen" id="gender" required><br><br>
+
+            <label for="lang">language:</label>
+            <select name="lang" id="lan">
+                <option value="default">Select language</option>
+            </select><br><br>
+
+            <label for="zcode">Zip Code:</label>
+            <input type="number" name="zcode" id="zip"><br><br>
+
+            <label for="about">About:</label>
+            <textarea name="about" id="txt" cols="25" rows=1" placeholder="write about yourself..."></textarea><br><br>
+            <button><b>Register</b></button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(128, 0, 0, 0.801);
+}
+.container{
+    padding-top: 40px;
+    padding-left: 90px;
+    margin: 90px 0 0 500px;
+    border: 0 solid black;
+    background-color: rgba(167, 19, 19, 0.664);
+    width: 450px;
+    height: 400px;
+    color: white;
+}
+input[type=text],input[type=password], input[type=email], input[type=number]{
+    margin-left: 20px;
+}
+span{
+    margin: 0 5px 0 20px;
+}
+.container .fill{
+    margin-left: 78px;
+}
+#pass{
+    margin-left: 55px;
+}
+#gen2{
+    margin-left: 70px;
+}
+.gen1{
+    margin-left: 10px;
+}
+#lan{
+    margin-left: 58px;
+}
+#zip{
+    margin-left: 57px;
+}
+#txt{
+    margin-left: 75px;
+}
+button{
+    margin: 10px 0 0 0;
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
